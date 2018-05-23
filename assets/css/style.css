@@ -5,6 +5,7 @@ body{
     background-size:cover;
     
     
+    
 }
 
 header {
@@ -60,6 +61,7 @@ header::after{
 
 .page h1{
     padding-top: 10px;
+    padding-left:3%;
 }
 
 header a {
@@ -129,7 +131,8 @@ nav li {
 
 
 footer {
-    
+    position:fixed;
+    text-align: center;
     background-color: #666666;
     color:white;
     bottom:0;
@@ -142,13 +145,14 @@ footer {
 
 h2 {
     padding-top: 10px;
+    padding-left:3%;
     font-size:16px;
     padding-bottom: 30px;
 }
 
 p {
     padding: 3%;
-    font-size:12px;
+    font-size:20px;
     
 }
 
@@ -186,3 +190,34 @@ img {
     float:left;
     padding: 3%
 }
+
+#name{
+    width:180px;
+}
+
+#email{
+    width:180px
+}
+
+#message {
+    min-width: 180px;
+    
+}
+
+#contact-form ul {
+    margin-bottom: 20px;
+  }
+  
+  #contact-form li {
+    margin-bottom: 10px;
+  }
+
+  #porimg {
+      padding:0px;
+      margin:5px;
+      width:270;
+      align-content: center;
+      max-width:290px;
+      float: right;
+
+  } 
